@@ -7,7 +7,7 @@ function insert_Row() {
 	b.textContent= "New Cell1"
 	a.appendChild(b)
 	a.appendChild(c)
-	abc.insertBefore(a, abc.children[0])
+	abc.insertBefore(a, abc.lastChild)
 	//Write your code here
   
 }
